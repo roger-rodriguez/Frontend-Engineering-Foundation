@@ -15,7 +15,7 @@ This file is a collection of questions, examples, and links that can be used to 
 #### JS Questions:
 
 * Explain how prototypal inheritance works. [answer] (#answer 1)
-* What's the difference between a variable that is: null, undefined or undeclared?
+* What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
 * What is the difference between `==` and `===`?
 
 
