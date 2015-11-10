@@ -29,7 +29,7 @@ The following is an object literal:
 var book = {
   'title'  : 'My Great Big Title',
   'author' : 'Louis V'
-}
+};
 ```
 
 As you can see, you can use its `title` property like this:
