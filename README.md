@@ -14,22 +14,33 @@ This file is a collection of questions, examples, and links that can be used to 
 
 #### JS Questions:
 
-* Explain how prototypal inheritance works. [answer] (#answer-1)
+* Explain how prototypal inheritance works. [answer] (#answer 1)
 
 
 
 #### JS Answers:
 
-#### answer-1
+#### Answer 1
+The following is an object literal:
+
 ```javascript
 var book = {
   'title'  : 'My Great Big Title',
   'author' : 'Louis V'
 }
+```
 
+As you can see, you can use its 'title' property like this:
+```javascript
 book.title; // "My Great Big Title"
+```
+
+But you can also do this:
+```javascript
 book.toString(); // "[object Object]"
 ```
+
+The reason is simple. Prototypal inheritance. Even though the 'toString()' method was not declared in the original object, it was inherited from up the prototype chain. Which is to say, the mere fact that we are using an 'object' allows for us to use an array of different 'built-in' functionality.
 
 
 #### Code Examples:
