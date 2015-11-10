@@ -15,6 +15,8 @@ This file is a collection of questions, examples, and links that can be used to 
 #### JS Questions:
 
 * Explain how prototypal inheritance works. [answer] (#answer 1)
+* What's the difference between a variable that is: null, undefined or undeclared?
+* What is the difference between `==` and `===`?
 
 
 
@@ -30,7 +32,7 @@ var book = {
 }
 ```
 
-As you can see, you can use its 'title' property like this:
+As you can see, you can use its `title` property like this:
 ```javascript
 book.title; // "My Great Big Title"
 ```
@@ -40,7 +42,7 @@ But you can also do this:
 book.toString(); // "[object Object]"
 ```
 
-The reason is simple. Prototypal inheritance. Even though the 'toString()' method was not declared in the original object, it was inherited from up the prototype chain. Which is to say, the mere fact that we are using an 'object' allows for us to use an array of different 'built-in' functionality.
+The reason is simple. Prototypal inheritance. Even though the `toString()` method was not declared in the original object, it was inherited from up the prototype chain. Which is to say, the mere fact that we are using an `object` allows for us to use an array of different 'built-in' functionality.
 
 
 #### Code Examples:
